@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item android:title="Skills and Development">
+            <menu>
+        <item
+             android:id="@+id/nav_android"
+             android:icon="@drawable/ic_icons8_android_os"
+             android:title="Android"/>
+        <item
+            android:id="@+id/nav_java"
+            android:icon="@drawable/ic_java"
+            android:title="Java"/>
+        <item android:id="@+id/nav_kotlin"
+            android:icon="@drawable/ic_kotlin_1"
+            android:title="Kotlin"/>
+            </menu>
+        </item>
+    </group>
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/linkedin"
+                android:icon="@drawable/ic_linkedin__1_"
+                android:title="LinkedIn Page" />
+            <item
+                android:id="@+id/discord"
+                android:icon="@drawable/ic_discord"
+                android:title="Discord Server" />
+            <item
+                android:id="@+id/email"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:title="Email Us"
+                android:data="https:mailto:info@wappgo.com"/>
+            <item android:id="@+id/website"
+                android:icon="@drawable/ic_globe"
+                android:title="Wappgo.com"/>
+
+        </menu>
+    </item>
+    <item android:title="Developer Contact">
+        <menu>
+            <item
+                android:title="Tanishq Chawda"
+                android:icon="@drawable/ic_baseline_person_outline_24"
+                android:id="@+id/tanishq"/>
+            <item
+                android:id="@+id/mymail"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:title="Email Me"/>
+        </menu>
+    </item>
+
+</menu>

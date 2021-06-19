@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android Explorer</string>
+    <string name="navigation_drawer_open">Open Navigation drawer</string>4
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+</resources>
